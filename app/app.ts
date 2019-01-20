@@ -10,7 +10,7 @@ const tweetsCSVPath = argv[argv.length-1]
 const { TWITTER_CREDENTIAL } = getEnv()
 const deleteTweet = deleteTwit(getSession(TWITTER_CREDENTIAL, 16 /* maximum parallel jobs */))
 
-// below is a example: deleting retweets (un-retweet) in Nov 2017 - Sep 2018.
+// below is a example: deleting retweets (un-retweet) in Dec 2017 - Oct 2018.
 const startTime = new Date().setFullYear(2017, 11)
 const endTime = new Date().setFullYear(2018, 9)
 filterCSV(
