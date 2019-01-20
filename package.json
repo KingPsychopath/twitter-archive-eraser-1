@@ -1,0 +1,23 @@
+{
+  "name": "tweet-archive-eraser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist/app/app.js"
+  },
+  "author": "@xnuk <https://github.com/xnuk>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^10.12.18",
+    "@types/twit": "^2.2.20",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "csv-parser": "^2.1.0",
+    "dotenv": "^6.2.0",
+    "twit": "^2.2.11"
+  }
+}
